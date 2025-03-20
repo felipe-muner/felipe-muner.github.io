@@ -54,12 +54,12 @@ export default function RootLayout({
       <body className={inter.className}>
         <header className="bg-white shadow">
           <div className="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8 flex justify-between items-center">
-            <h1 className="text-3xl font-bold text-gray-900">Felipe Muner</h1>
+            <Link href="/"><h1 className="text-3xl font-bold text-gray-900">Felipe Muner</h1></Link>
             <nav>
               <ul className="flex space-x-6">
-                <li><Link href="/topics/yoga" className="text-gray-700 hover:text-indigo-600">Yoga</Link></li>
-                <li><Link href="/topics/crypto" className="text-gray-700 hover:text-indigo-600">Cryptocurrency</Link></li>
-                <li><Link href="/topics/development" className="text-gray-700 hover:text-indigo-600">Development</Link></li>
+                <li><Link href="/yoga" className="text-gray-700 hover:text-indigo-600">Yoga</Link></li>
+                <li><Link href="/crypto" className="text-gray-700 hover:text-indigo-600">Cryptocurrency</Link></li>
+                <li><Link href="/development" className="text-gray-700 hover:text-indigo-600">Development</Link></li>
                 <li><Link href="/about" className="text-gray-700 hover:text-indigo-600">About</Link></li>
                 <li><Link href="/contact" className="text-gray-700 hover:text-indigo-600">Contact</Link></li>
               </ul>
@@ -80,15 +80,15 @@ export default function RootLayout({
               <div>
                 <h3 className="text-xl font-semibold mb-4">Topics</h3>
                 <ul className="space-y-2">
-                  <li><a href="/topics/yoga" className="hover:text-indigo-400">Yoga & Wellness</a></li>
-                  <li><a href="/topics/crypto" className="hover:text-indigo-400">Cryptocurrency</a></li>
-                  <li><a href="/topics/development" className="hover:text-indigo-400">Software Development</a></li>
+                  <li><a href="/yoga" className="hover:text-indigo-400">Yoga & Wellness</a></li>
+                  <li><a href="/crypto" className="hover:text-indigo-400">Cryptocurrency</a></li>
+                  <li><a href="/development" className="hover:text-indigo-400">Software Development</a></li>
                 </ul>
               </div>
               <div>
                 <h3 className="text-xl font-semibold mb-4">Connect</h3>
                 <ul className="space-y-2">
-                  <li>Email: felipe@example.com</li>
+                  <li>Email: felipe.muner@gmail.com</li>
                   <li>GitHub: @felipe-muner</li>
                   <li>LinkedIn: /in/felipe-muner</li>
                 </ul>

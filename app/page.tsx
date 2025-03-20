@@ -19,7 +19,7 @@ export default function Home() {
               <p className="text-gray-600 mb-4">Discover the transformative power of yoga for mind, body, and spirit. Expert guidance for all levels.</p>
               <div className="flex justify-between items-center">
                 <span className="text-xl font-bold">Join Now</span>
-                <Link href="/topics/yoga" className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700">
+                <Link href="/yoga" className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700">
                   Explore
                 </Link>
               </div>
@@ -38,7 +38,7 @@ export default function Home() {
               <p className="text-gray-600 mb-4">Navigate the world of digital assets with expert insights, market analysis, and investment strategies.</p>
               <div className="flex justify-between items-center">
                 <span className="text-xl font-bold">Learn More</span>
-                <Link href="/topics/crypto" className="bg-teal-600 text-white px-4 py-2 rounded-md hover:bg-teal-700">
+                <Link href="/crypto" className="bg-teal-600 text-white px-4 py-2 rounded-md hover:bg-teal-700">
                   Explore
                 </Link>
               </div>
@@ -57,7 +57,7 @@ export default function Home() {
               <p className="text-gray-600 mb-4">Modern web development techniques, best practices, and project showcases from an experienced developer.</p>
               <div className="flex justify-between items-center">
                 <span className="text-xl font-bold">View Projects</span>
-                <Link href="/topics/development" className="bg-orange-600 text-white px-4 py-2 rounded-md hover:bg-orange-700">
+                <Link href="/development" className="bg-orange-600 text-white px-4 py-2 rounded-md hover:bg-orange-700">
                   Explore
                 </Link>
               </div>
