@@ -6,6 +6,7 @@ import Link from 'next/link';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://felipe-muner.github.io'),
   title: 'Felipe Muner | Yoga, Crypto & Software Development',
   description: 'Explore insights on yoga practice, cryptocurrency investments, and software development from Felipe Muner, an expert across these diverse fields.',
   keywords: 'yoga, cryptocurrency, software development, web development, mindfulness, tech, blockchain, wellness, programming, next.js',
